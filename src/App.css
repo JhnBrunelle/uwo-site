@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+body{
+  background-color: darkslategray;
+}
+
+.App {
+  text-align: center;
+}
+
+
+.App-header {
+  z-index: 1000;
+  display:flex;
+  flex-direction:row;
+  justify-content: center;
+  margin-top: 25vh;
+  background-color: #222;
+  color: white;
+  font-weight:normal;
+  height:auto;
+  line-height: 1.5;
+  overflow: visible;
+}
+
+
+.titleBlock{
+  display:flex;
+  flex-direction:column;
+  line-height: 1.0;
+  font-size:50px;
+  color: white;
+  font-family: 'Pacifico', cursive;
+  text-align:right;
+}
+
+.spacer{
+  width:40px;
+}
+
+.infoBlock {
+  color:lightgray;
+  margin-top:110px;
+  text-align:left;
+  display:flex;
+  flex-direction:column;
+  font-size:20px;
+}
+
+.infoBlock p {
+  margin-bottom: 0px;
+}
+
+.infoBlock .links {
+  font-size: 30px;
+}
+
+.infoBlock .links a {
+  color:white;
+}
+.App-intro {
+  font-size: large;
+}
+
